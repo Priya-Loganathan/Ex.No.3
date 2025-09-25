@@ -1,166 +1,124 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### NAME : Delli Priya L                                                                           
+### NAME : Delli Priya L                
+
 ### REGISTER NUMBER : 212222230029
 
-## Aim: 
+### Aim: 
 To write the prompts for these following prompt types and evaluate that using any one method 
 1. Straightforward Prompts,
+
 2. Tabular Format Prompting
+   
 3. Preceding Question Prompting
+ 
 4. Missing Word Prompting
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
+## Prompt Engineering Techniques for Chatbots
+Prompt Engineering involves designing clear and structured instructions that help AI-powered chatbots generate accurate, context-sensitive, and user-friendly responses.
+
+By applying prompt engineering, a chatbot can:
+- Deliver precise and relevant information to user queries.
+
+- Adapt its tone to match the situation (professional, supportive, or engaging).
+
+- Efficiently manage tasks like troubleshooting, order updates, or feedback collection.
+
+- Reduce ambiguity by guiding users with clarifying questions.
+
+Different prompting strategies are used depending on the nature of the conversation and the level of detail required, ensuring smoother and more effective interactions.
+## 1. Straightforward Prompts
+Definition:Direct and simple instructions given to the AI without extra context. Best for deterministic, repetitive tasks where the output format is fixed.
+
+## Key Features:
+ - Clear and direct phrasing.
+ - Minimal ambiguity.
+ - Works well for factual or standard replies.
+
+## Use Cases:
+  - Order tracking responses.
+  - Providing product availability.
+  - Greeting/closing messages.
+
+## Example:
+Prompt: “When a customer asks for order status, reply with: ‘Your order is currently being processed and will be delivered by [date].’”
+
+## Conversation:
+Customer: “What’s the status of order #1456?”
+
+Chatbot: “Your order is currently being processed and will be delivered by September 15, 2025.”
+
+## Advantages: 
+Fast and reliable for structured queries.
+
+## 2. Tabular Format Prompting
+Definition:A prompting style where the AI is asked to present information in a structured table format for clarity and comparison.
+
+## Key Features:
+- Organizes data into rows and columns.
+- Helps with comparisons and detailed listings.
+- Improves readability for users.
+    
+## Use Cases:
+- Warranty or product comparison.
+- Shipping/delivery options.
+- Technical specifications.
+    
+## Example:
+
+<img width="688" height="221" alt="image" src="https://github.com/user-attachments/assets/f4cc7ff1-0121-42b8-9d23-74f2d05e22b9" />
+
+## Advantages: 
+Information is easy to read and compare.
+## 3. Preceding Question Prompting
+Definition:A method where the chatbot’s answer links to the previous question, allowing smooth, multi-turn conversations.
+## Key Features:
+- Builds logical connections between queries.
+- Maintains context throughout the chat.
+- Feels more like a real human conversation.
+## Use Cases:
+- Step-by-step troubleshooting.
+- Customer service follow-ups.
+- Layered FAQ sessions.
+## Example:
+Prompt 1: “Can you tell me the shipping time for electronics?”
+
+Chatbot: “Electronics usually take 3–5 business days to ship.”
+
+Prompt 2: “Is there an extra cost for faster delivery?”
+
+Chatbot: “Yes, express shipping is available for an additional ₹150.”
+
+## Advantages: 
+Helps in guided problem-solving and customer support.
+## 4. Missing Word Prompting
+Definition:The chatbot completes a sentence with the most relevant missing word or phrase.
+## Key Features:
+- Works like a “fill-in-the-blank” task.
+- Ensures short and focused answers.
+- Relies on contextual accuracy.
+## Use Cases:
+- Educational practice (quizzes, training).
+- Auto-completion of order details.
+- Simple fact-checking.
+
+## Example:
+
+Prompt: “The main component of blood that carries oxygen is ____.”
+
+Chatbot: “The main component of blood that carries oxygen is hemoglobin.”
+
+Prompt: “The fastest land animal is ____.”
+
+Chatbot: “The fastest land animal is the cheetah.”
+
+## Advantages: 
+Quick way to test knowledge or provide facts.
 
 
-## Procedure:
-1.	Straightforward Prompts:
-    - •	"Define photosynthesis in one sentence."
-    - 	"List three advantages of electric vehicles."
+### Conclusion :
+Prompt Engineering serves as the backbone of effective chatbot communication. By carefully structuring prompts, chatbots can provide accurate answers, maintain the right tone, and adapt to different customer needs. Each prompting technique—whether straightforward, tabular, preceding question, or missing word—adds unique value in shaping responses. Ultimately, well-engineered prompts ensure that chatbot interactions remain clear, efficient, and user-friendly, enhancing both customer satisfaction and overall system performance.
 
- 3.	Tabular Format Prompting:
-     •	"Compare and contrast AC and DC current in a table."
-     •	"Provide a table listing five programming languages, their paradigms, and one use case each."
-3. Preceding Question Prompting:
-    •	"Why is climate change a global concern? Explain how greenhouse gases contribute to global warming."
-    •	"How do vaccines work? Describe the process of immunization in simple terms."
-4. Missing Word Prompting:
-   •	"The capital of France is ____."
-  •	"In photosynthesis, plants absorb sunlight to produce ____."
+# Result: 
+Thus the Prompts were exected succcessfully.
 
-## Use Case:
-
-* System: a mobile banking app
-* Primary Actor: customers who want to open an account
-* Secondary Actor: underwriters and automated tools calculating interest rates and maximum principal balances
-* Goals: save time on account registration and onboarding
-* Stakeholders: the CEO and product VP of the company
-* Preconditions: users download the app and meet account requirements
-* Trigger: the user chooses to create a new account from the app
-
-## Straightforward Prompts
-
-Prompt 1:
-
-```
-Explain in one sentence how a new customer can start the registration process in the mobile banking app.
-```
-
-### Output:
-```
-A new customer can start registration by opening the app, tapping “Create Account,” and entering their personal details.
-```
-
-Prompt 2:
-
-```
-List three benefits of online account opening through the app.
-```
-
-### Output:
-```
-– No need to visit a branch
-
-– Quick approval process
-
-– Instant access to basic banking features
-```
-
-## Tabular Format Prompting
-
-Prompt 1:
-
-```
-Create a table showing the differences between Basic, Premium and Student account types including minimum balance, monthly fee and benefits.
-```
-
-### Output:
-
-```
-| Account Type | Minimum Balance | Monthly Fee | Benefits                                  |
-| ------------ | --------------- | ----------- | ----------------------------------------- |
-| Basic        | ₹1,000          | ₹0          | Free debit card, online banking           |
-| Premium      | ₹10,000         | ₹199        | Higher withdrawal limit, priority support |
-| Student      | ₹0              | ₹0          | No minimum balance, free transfers        |
-```
-
-Prompt 2:
-
-```
-Provide a table comparing three verification methods (OTP, biometric, email link) used in the app during registration including speed and security.
-```
-
-### Output:
-
-```
-| Verification Method          | Speed                 | Security Level | Typical Use                     |
-| ---------------------------- | --------------------- | -------------- | ------------------------------- |
-| OTP (One-Time Password)      | Fast (within seconds) | Medium         | Mobile number verification      |
-| Biometric (Fingerprint/Face) | Instant               | High           | App login and sensitive actions |
-| Email Link                   | Moderate (1–2 min)    | Medium-High    | Confirming email address        |
-```
-
-## Preceding Question Prompting
-
-Prompt 1:
-
-```
-What documents does the user need to upload for KYC? Explain why these are necessary.
-```
-
-### Output:
-```
-The user needs to upload a government-issued ID (like Aadhaar or passport) and a proof of address (like utility bill).
-These documents are necessary to comply with banking regulations and verify the customer’s identity to prevent fraud.
-```
-
-Prompt 2:
-
-```
-How can the app guide a first-time user through setting up a savings account? Describe the steps simply.
-```
-
-### Output:
-```
-The app can display a step-by-step wizard:
-
-1. Welcome screen explains the process.
-2. Collect personal details like name and phone number.
-3. Prompt to upload ID and address proof.
-4. Offer account options (Basic, Premium, Student).
-5. Confirm details and complete verification.
-6. Show “Account Created” message with next steps.
-```
-
-## Missing Word Prompting
-
-Prompt 1:
-
-```
-The minimum balance for a Premium account is ____.
-```
-
-### Output:
-```
-₹10,000.
-```
-
-Prompt 2:
-
-```
-To verify identity quickly, the app can use ____ authentication.
-```
-
-### Output:
-```
-Biometric authentication.
-```
-
-## Conclusion
-
-By applying Straightforward, Tabular Format, Preceding Question and Missing Word Prompting techniques to the mobile banking app use case, the AI produced clear, accurate and user-friendly outputs that would help design a smoother registration and onboarding process.
-
-
-## Result
-
-The various types of prompts were executed successfully.
